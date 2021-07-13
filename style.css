@@ -4,9 +4,11 @@
 body {
   font-family: "Poppins", sans-serif;
 }
+.td {
+  text-decoration: none;
+}
 
-/* hearder  */
-.top {
+.big-div {
   width: 1440px;
   height: 677px;
   background-color: #2d25a0;
@@ -19,5 +21,17 @@ body {
   line-height: 80px;
   margin-top: 207px;
   margin-left: 156px;
-  margin-bottom: 240px;
+  margin-bottom: 0px;
+}
+.button {
+  position: absolute;
+  width: 168px;
+  height: 44px;
+  left: 156px;
+  top: 464px;
+  border: 2px solid rgb(194, 26, 26);
+  background-color: #e02c6d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
