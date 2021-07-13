@@ -7,12 +7,18 @@ body {
 .td {
   text-decoration: none;
 }
+.grid-cell {
+  width: 300px;
+  height: 426px;
+  /* border: 2px solid rgb(216, 81, 81);  */
+}
 
 .big-div {
   width: 1440px;
   height: 677px;
   background-color: #2d25a0;
   margin-top: 0;
+  margin-bottom: 30px;
 }
 .position {
   width: 485px;
@@ -49,10 +55,9 @@ body {
   transition: transform 2s ease-in;
 }
 /* main part style  */
-.first-div {
-  display: flex;
-}
-.first-div div {
-  width: 330px;
-  height: 474px;
+.player-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 100px;
+  column-gap: 50px;
 }
