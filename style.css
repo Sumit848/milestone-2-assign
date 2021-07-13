@@ -12,6 +12,7 @@ body {
   width: 1440px;
   height: 677px;
   background-color: #2d25a0;
+  margin-top: 0;
 }
 .position {
   width: 485px;
@@ -46,4 +47,12 @@ body {
 .banner img:hover {
   transform: scale(0.75) rotate(360deg);
   transition: transform 2s ease-in;
+}
+/* main part style  */
+.first-div {
+  display: flex;
+}
+.first-div div {
+  width: 330px;
+  height: 474px;
 }
