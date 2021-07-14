@@ -105,3 +105,14 @@ body {
   text-align: center;
   margin-left: 20px;
 }
+/* media-queries  */
+/* mobile devices  */
+
+@media only screen and (max-width: 688px) {
+  .player-grid {
+    width: 100%;
+  }
+  .grid-cell {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
