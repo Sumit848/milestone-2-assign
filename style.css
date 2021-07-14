@@ -1,5 +1,4 @@
 /* font  */
-
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 /* common styles  */
@@ -9,18 +8,12 @@ body {
 .td {
   text-decoration: none;
 }
-.grid-cell {
-  width: 300px;
-  height: 426px;
-  border: 2px solid rgb(216, 81, 81);
-}
-
+/* common-style ends  */
 .big-div {
   display: flex;
   column-gap: 200px;
   background-color: #2d25a0;
 }
-
 .centre {
   display: flex;
   justify-content: center;
@@ -37,7 +30,6 @@ body {
   line-height: 55px;
   margin-bottom: 20px;
 }
-
 .button {
   display: flex;
   flex-direction: row;
@@ -52,7 +44,8 @@ body {
   justify-content: center;
   align-items: center;
 }
-/* main part style  */
+
+/* section part style  */
 .player-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -65,22 +58,10 @@ body {
   margin-right: 210px;
   margin-bottom: 27px;
 }
-.logo img {
-  width: 483px;
-  height: 110px;
-}
-.footer-orientation {
-  font-family: "Poppins", sans-serif;
-  border: 2px solid red;
-}
-.icon a {
-  width: 32px;
-  height: 32px;
-  margin-right: 14px;
-}
-.cpy-size {
-  font-size: 18px;
-  line-height: 24px;
+.grid-cell {
+  width: 300px;
+  height: 426px;
+  border: 2px solid rgb(216, 81, 81);
 }
 .venues {
   display: grid;
@@ -93,6 +74,21 @@ body {
   margin-bottom: 40px;
   width: 70%;
 }
-.link {
-  text-decoration: none;
+/* footer-style  */
+.footer-orientation {
+  font-family: "Poppins", sans-serif;
+  border: 2px solid red;
+}
+.logo img {
+  width: 483px;
+  height: 110px;
+}
+.icon a {
+  width: 32px;
+  height: 32px;
+  margin-right: 14px;
+}
+.cpy-size {
+  font-size: 18px;
+  line-height: 24px;
 }
