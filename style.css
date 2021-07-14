@@ -1,5 +1,7 @@
 /* font  */
+
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 /* common styles  */
 body {
   font-family: "Poppins", sans-serif;
@@ -24,6 +26,10 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+.banner img:hover {
+  transform: scale(0.75) rotate(360deg);
+  transition: transform 2s ease-in;
 }
 .pad {
   padding-left: 156px;
@@ -58,4 +64,35 @@ body {
   margin-left: 180px;
   margin-right: 210px;
   margin-bottom: 27px;
+}
+.logo img {
+  width: 483px;
+  height: 110px;
+}
+.footer-orientation {
+  font-family: "Poppins", sans-serif;
+  border: 2px solid red;
+}
+.icon a {
+  width: 32px;
+  height: 32px;
+  margin-right: 14px;
+}
+.cpy-size {
+  font-size: 18px;
+  line-height: 24px;
+}
+.venues {
+  display: grid;
+  grid-template-columns: repeat(2, 200px);
+}
+.booking {
+  background-image: linear-gradient(navy, white);
+  border-radius: 8px;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  width: 70%;
+}
+.link {
+  text-decoration: none;
 }
