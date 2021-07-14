@@ -12,17 +12,25 @@ body {
 .big-div {
   display: flex;
   column-gap: 200px;
-  background-color: white;
+  background-color: #2d25a0;
 }
+
 .centre {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
+
 .banner img:hover {
   transform: scale(0.75) rotate(360deg);
   transition: transform 2s ease-in;
+}
+.text {
+  font-size: 28px;
+}
+.text1 {
+  font-size: 16px;
 }
 .pad {
   padding-left: 156px;
@@ -39,7 +47,7 @@ body {
   height: 20px;
   left: 156px;
   top: 464px;
-  background-color: skyblue;
+  background-color: rgb(233, 50, 105);
 
   justify-content: center;
   align-items: center;
@@ -70,17 +78,20 @@ body {
   margin-left: 180px;
 }
 .align {
-  text-align: center;
   color: blueviolet;
+  margin-left: 180px;
 }
 .booking {
-  background-image: linear-gradient(navy, white);
+  background-image: linear-gradient(navy, rgb(241, 137, 137));
   border-radius: 8px;
   margin-top: 30px;
   margin-bottom: 40px;
   width: 15%;
   text-align: center;
   margin-left: 180px;
+}
+.font-color {
+  color: white;
 }
 /* footer-style  */
 .footer-orientation {
@@ -109,10 +120,13 @@ body {
 /* mobile devices  */
 
 @media only screen and (max-width: 688px) {
-  .player-grid {
+  body {
     width: 100%;
   }
-  .grid-cell {
+  .player-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .player-grid {
     grid-template-columns: repeat(1, 1fr);
   }
 }
