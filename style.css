@@ -18,6 +18,7 @@ body {
   column-gap: 200px;
   background-color: #2d25a0;
 }
+
 .centre {
   display: flex;
   justify-content: center;
@@ -25,16 +26,23 @@ body {
   flex-direction: column;
 }
 .pad {
-  padding-left: 135px;
+  padding-left: 156px;
   font-size: 45px;
   line-height: 55px;
   margin-bottom: 20px;
 }
+
 .button {
-  width: 168px;
-  height: 44px;
-  background-color: #e02c6d;
   display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 10px 24px;
+  width: 120px;
+  height: 20px;
+  left: 156px;
+  top: 464px;
+  background-color: #e02c6d;
+
   justify-content: center;
   align-items: center;
 }
@@ -42,9 +50,12 @@ body {
 .player-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  /* width: 1405px; */
-  row-gap: 40px;
-  column-gap: 10px;
+
+  row-gap: 36px;
+  column-gap: 30px;
+
   margin-top: 70px;
-  border: 3px solid green;
+  margin-left: 180px;
+  margin-right: 210px;
+  margin-bottom: 27px;
 }
