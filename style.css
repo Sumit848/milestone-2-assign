@@ -12,7 +12,7 @@ body {
 .big-div {
   display: flex;
   column-gap: 200px;
-  background-color: #2d25a0;
+  background-color: white;
 }
 .centre {
   display: flex;
@@ -39,10 +39,11 @@ body {
   height: 20px;
   left: 156px;
   top: 464px;
-  background-color: #e02c6d;
+  background-color: skyblue;
 
   justify-content: center;
   align-items: center;
+  border: 2px solid blueviolet;
 }
 
 /* section part style  */
@@ -61,27 +62,37 @@ body {
 .grid-cell {
   width: 300px;
   height: 426px;
-  border: 2px solid rgb(216, 81, 81);
+  border: 12px solid rgb(228, 244, 250);
 }
 .venues {
   display: grid;
   grid-template-columns: repeat(2, 200px);
+  margin-left: 180px;
+}
+.align {
+  text-align: center;
+  color: blueviolet;
 }
 .booking {
   background-image: linear-gradient(navy, white);
   border-radius: 8px;
-  margin-top: 50px;
+  margin-top: 30px;
   margin-bottom: 40px;
-  width: 70%;
+  width: 15%;
+  text-align: center;
+  margin-left: 180px;
 }
 /* footer-style  */
 .footer-orientation {
   font-family: "Poppins", sans-serif;
-  border: 2px solid red;
 }
 .logo img {
   width: 483px;
   height: 110px;
+  margin-left: 380px;
+}
+.icons {
+  margin-left: 580px;
 }
 .icon a {
   width: 32px;
@@ -91,4 +102,6 @@ body {
 .cpy-size {
   font-size: 18px;
   line-height: 24px;
+  text-align: center;
+  margin-left: 20px;
 }
